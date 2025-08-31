@@ -21,7 +21,7 @@ export default function Hero() {
 
             {/* Content */}
             <div className="md:px-6 max-w-5xl flex flex-col items-center relative z-10 w-full">
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 drop-shadow-lg">
+                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 drop-shadow-lg md:mx-0 mx-2">
                     What do you want to design today?
                 </h1>
                 <p className="mt-5 text-base md:text-xl text-gray-700">
