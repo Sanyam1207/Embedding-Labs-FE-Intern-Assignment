@@ -87,7 +87,7 @@ export default function FloatingSVG() {
             {svgs.map(({ id, svg, x, y }) => (
                 <motion.div
                     key={id}
-                    className="absolute blur-xs"
+                    className="absolute blur-sm"
                     style={{ left: x, top: y }}
                     animate={{
                         y: ["0px", "-40px", "0px"],

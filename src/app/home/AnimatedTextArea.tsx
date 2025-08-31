@@ -68,7 +68,7 @@ export default function AnimatedTextarea() {
                 />
 
                 {/* Action Buttons */}
-                <div className="flex gap-2 items-center p-3 w-full">
+                <div className="flex md:gap-2 gap-4 items-center p-3 w-full">
                     {/* Add Image Button */}
                     <button className="flex items-center whitespace-nowrap transition-all cursor-pointer gap-2 px-3 py-2 bg-gray-100 hover:bg-gray-200 rounded-md text-sm font-medium text-gray-800">
                         <ImagePlus className="w-4 h-4" />
